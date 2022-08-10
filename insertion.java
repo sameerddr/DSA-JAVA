@@ -21,13 +21,21 @@ public class insertion {
         System.out.println("Enter the value to be added");
         p= sc.nextInt();
 
-        for (int i = 0; i < n+1; i++) {
+        for (int i = 0; i < n+1; i++) {  // 10 20 
             if(i<m){
                 b[i] = a[i];
             }
-            else if(i==m){
+            else if(i==m){               // 30
                 b[i]=p;
             }
+            else{                         // 
+                b[i] = a[i-1];
+            }
+        }
+
+        System.out.println("elements are -:");
+        for (int i = 0; i < n+1; i++) {
+            System.out.println(b[i]);
         }
 
     }
