@@ -17,7 +17,18 @@ public class insertion {
         }
 
         System.out.println("Enter the Index of the Element that where you want to add a number");
+        m = sc.nextInt();
+        System.out.println("Enter the value to be added");
+        p= sc.nextInt();
+
+        for (int i = 0; i < n+1; i++) {
+            if(i<m){
+                b[i] = a[i];
+            }
+            else if(i==m){
+                b[i]=p;
+            }
+        }
 
     }
-    
 }
