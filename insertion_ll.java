@@ -14,7 +14,7 @@ public class insertion_ll {
 
     Node head = null;
     void creation() {
-        int data, n;
+        int data, n,m;
         Scanner sc = new Scanner(System.in);
          do{
             System.out.println("Enter the Data");
@@ -26,7 +26,7 @@ public class insertion_ll {
 
                 System.out.println(
                     "Enter 1 to insert the item at begining , 2 to insert at the end and 3 to insert at any(i) position");
-                int m = sc.nextInt();
+                 m = sc.nextInt();
                 switch (m) {
                 case 1:
                     new_node.next = head;
