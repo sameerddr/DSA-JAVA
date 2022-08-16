@@ -14,7 +14,7 @@ public class insertion_ll {
 
     Node head = null;
     void creation() {
-        int data, n,m;
+        int data, n,m,p;
         Scanner sc = new Scanner(System.in);
          do{
             System.out.println("Enter the Data");
