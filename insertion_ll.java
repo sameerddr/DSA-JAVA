@@ -40,7 +40,7 @@ public class insertion_ll {
                   break;
                   case 3:
                   System.out.println("enter the position where you want to add the new node ");
-                  int p = sc.nextInt();
+                   p = sc.nextInt();
                   Node temp1 = head;
                   for (int i = 0; i < p-1; i++) {
                     temp1 = temp1.next;
