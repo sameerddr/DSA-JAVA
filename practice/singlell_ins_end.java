@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class singlell_ins_end {
 
