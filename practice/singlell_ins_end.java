@@ -27,8 +27,15 @@ public class singlell_ins_end {
             if (head == null) {
                 head = new_node;
             } else {
-                new_node.next = head;
-                head = new_node;
+                
+                System.out.println("enter 2 for inserting the value at the end ");
+
+            //    int  m = sc.nextInt();
+               Node temp = head;
+               while (temp.next!=null) {
+                temp = temp.next;
+               }
+            //    temp.next = new_node;
 
             }
             System.out.println("Press 1 for continue");
@@ -47,11 +54,9 @@ public class singlell_ins_end {
                 temp = temp.next;
             }
             Node new_node;
-            temp.next! = new_node;
+            // temp.next!  = new_node;
         }
-    }
-
-    public static void main(String[] args) {
+    }    public static void main(String[] args) {
         singlell_ins_end ll = new singlell_ins_end();
         ll.creation();
         ll.traverse();

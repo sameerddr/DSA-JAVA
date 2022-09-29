@@ -29,7 +29,6 @@ public class singlell_ins_beg {
             if (head == null) {
                 head = new_node;
             } else {
-                
                 System.out.println("enter 0 to insert the data at the begining");
                 new_node.next = head;
                 head = new_node;
